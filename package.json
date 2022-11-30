@@ -1,0 +1,25 @@
+{
+  "name": "algo-nft",
+  "version": "1.0.0",
+  "description": "mint an nft with reach",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "reach",
+    "nft"
+  ],
+  "author": "jpmiller",
+  "license": "MIT",
+  "dependencies": {
+    "@reach-sh/stdlib": "^0.1.12-rc.8",
+    "ipfs-core": "^0.17.0"
+  },
+  "devDependencies": {
+    "webpack": "^5.75.0",
+    "webpack-dev-server": "^4.11.1"
+  }
+}
